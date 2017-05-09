@@ -1,8 +1,8 @@
-# Jekyll code for website of Electronics and Robotics Club IIT Bombay
-The Jekyll code for the ERC@IITB website resides in this repo.
+# Electronics and Robotics Club IIT Bombay
+Here resides the Jekyll code for the ERC@IITB website
 
 The Electronics and Robotics Club is coming up under [STAB, IITB](https://stab-iitb.org/) very soon.
-Originally, we were two separate clubs, but redundancy drove us into a merger. Cheers! 
+Originally, we were two separate clubs, but redundancy drove us into a merger. Drop us a line, we'll be pleased to hear from you! Cheers! 
 
 ## How to contribute:
 
