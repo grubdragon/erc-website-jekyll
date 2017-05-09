@@ -1,28 +1,19 @@
-# So Simple Theme
+# Jekyll code for website of Electronics and Robotics Club IIT Bombmay
+The Jekyll code for the ERC website resides in this repo.
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+The Electronics and Robotics Club is coming up under [STAB, IITB](https://stab-iitb.org/) very soon.
+Originally, we were two separate clubs, but redundancy drove us into a merger. Cheers! 
 
-## Notable features:
+## How to contribute:
 
-* Compatible with Jekyll 3 and GitHub Pages.
-* Responsive templates. Looks good on mobile, tablet, and desktop devices.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page](http://mmistakes.github.io/so-simple-theme/404.html) to get you started.
-* Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
-* Support for Disqus Comments
+* Fork this repo into your own account
+* Clone it offline from your own account's fork
+* Branch, work on your features, merge back into master
+* Make sure your master branch is in sync with this one (hint:use remote add upstream)
+* Push changes back into your own fork
+* Open a pull request from your fork, take part in the ensuing discussion, learn what mistakes you've made/could've done better
+* Approved!
 
-![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
+![Electronics Club, IITB](https://stab-iitb.org/electronics-club/assets/ico/logo.png =128x128) <font size="64px">+</font> ![Robotics Club, IITB](https://stab-iitb.org/robotics-club/images/header_image.png =128x128)
 
-See a [live version of So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
-
----
-
-## Getting Started
-
-So Simple takes advantage of Sass and data files to make customizing easier and requires Jekyll 3.x.
-
-To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/) for more information.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+See a [live version of the theme: So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
