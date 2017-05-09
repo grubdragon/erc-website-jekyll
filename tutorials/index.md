@@ -2,7 +2,7 @@
 layout: page
 title: Tutorials
 excerpt: "Learn at your own pace!"
-search_omit: false
+search_omit: true
 ---
 
 <ul class="post-list">
