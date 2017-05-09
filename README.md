@@ -14,6 +14,6 @@ Originally, we were two separate clubs, but redundancy drove us into a merger. C
 * Open a pull request from your fork, take part in the ensuing discussion, learn what mistakes you've made/could've done better
 * Approved!
 
-<img style="float: left;" src="https://stab-iitb.org/electronics-club/assets/ico/logo.png" width="128" height="128" alt="Electronics Club, IITB"> <font size="64px">+</font> <img style="float: right;" src="https://stab-iitb.org/robotics-club/images/header_image.png" width="128" height="128" alt="Robotics Club, IITB">
+<img src="https://stab-iitb.org/electronics-club/assets/ico/logo.png" width="128" height="128" alt="Electronics Club, IITB"> <img src="http://www.clipartbest.com/cliparts/9Tp/6qL/9Tp6qLzrc.png" width="128" height="128"> <img src="https://stab-iitb.org/robotics-club/images/header_image.png" width="128" height="128" alt="Robotics Club, IITB">
 
 See a [live version of the theme: So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
