@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 title: Path Finder Bot
 excerpt: A bot which finds its way on its own
 author: Thariq Shanavas

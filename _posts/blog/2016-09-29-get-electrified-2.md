@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 title: Get Electrified 2
 excerpt: How we designed and made xylobands and audio amplifiers!
 author: Pranav Sankhe

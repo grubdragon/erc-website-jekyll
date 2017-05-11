@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 title: Game Of Pong
 excerpt: Making the classic 'Pong' Game using concept of Shift Registers
 author: Krishna Subramani

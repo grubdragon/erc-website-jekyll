@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 title: Fundamentals of a SLAM Algorithm
 excerpt: Discuss the basic concepts behind all SLAM Algorithms. 
 author: Arunabh Ghosh

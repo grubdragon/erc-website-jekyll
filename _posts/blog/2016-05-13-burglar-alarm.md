@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 title: The Making of Burglar Alarm
 excerpt: Discussing the concepts behind this elementary circuit and then moving on to build it.
 author: Arunabh Ghosh

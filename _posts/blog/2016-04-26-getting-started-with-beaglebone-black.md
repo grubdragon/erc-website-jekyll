@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 assets-dir: assets/getting-started-with-beaglebone-black
 title: Getting Started with Beaglebone Black
 excerpt: Simple tutorial on using the BBB.

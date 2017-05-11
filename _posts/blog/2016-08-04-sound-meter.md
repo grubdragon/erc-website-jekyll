@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 assets-dir: assets/sound-meter
 header-img: assets/sound-meter/cover.png
 title: Making a Sound Meter in Python

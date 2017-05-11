@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 title: Glimpse Of The Naive Bayes' Classifier
 excerpt: A simple machine learning algorithm explained
 author: Riddhish Bhalodia

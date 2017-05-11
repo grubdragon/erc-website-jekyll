@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 assets-dir: assets/using-eagle-to-design-pcbs
 header-img: assets/using-eagle-to-design-pcbs/cover.jpg
 title: Using Eagle to design PCBs

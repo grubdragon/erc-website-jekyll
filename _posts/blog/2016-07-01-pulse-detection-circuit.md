@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 assets-dir: assets/pulse-detection-circuit
 header-img: assets/pulse-detection-circuit/cover.jpg
 title: Pulse Detection Circuit

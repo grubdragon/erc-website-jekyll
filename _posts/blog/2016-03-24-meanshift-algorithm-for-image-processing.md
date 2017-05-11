@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 assets-dir: assets/meanshift-algorithm-for-image-processing
 title: Meanshift Algorithm for Image Processing
 excerpt: A very basic, yet essential, algorithm for removing noise and forming Clusters in an image.

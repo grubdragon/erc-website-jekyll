@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 title: Improving ADCs by intentionally adding noise
 excerpt: How noise addition helps in increasing accuracy of Analog to Digital conversion
 author: Meet Udeshi

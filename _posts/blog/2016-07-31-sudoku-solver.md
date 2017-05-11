@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 assets-dir: assets/sudoku-solver
 header-img: assets/sudoku-solver/cover.jpg
 title: Sudoku Solver

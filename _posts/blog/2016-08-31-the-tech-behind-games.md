@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-
+categories: blog
 title: The Tech Behind Games
 excerpt: How today's mobile games use the various sensors to provide the ultimate gaming experience!
 author: Shrvan Amlekar
