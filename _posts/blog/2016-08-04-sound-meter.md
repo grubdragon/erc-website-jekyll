@@ -2,8 +2,8 @@
 layout: post
 comments: true
 categories: blog
-assets-dir: assets/sound-meter
-header-img: assets/sound-meter/cover.png
+assets-dir: assets/blog/sound-meter
+header-img: assets/blog/sound-meter/cover.png
 title: Making a Sound Meter in Python
 excerpt: A basic usage of audio handling libraries for creating a fun sound-meter!
 author: Krish Mehta

@@ -8,8 +8,8 @@ author: Arunabh Ghosh
 category: [Informative]
 tags: [algorithm]
 
-assets-dir: assets/fundamentals-of-a-slam-algorithm
-header-img: assets/fundamentals-of-a-slam-algorithm/cover.png
+assets-dir: assets/blog/fundamentals-of-a-slam-algorithm
+header-img: assets/blog/fundamentals-of-a-slam-algorithm/cover.png
 ---
 
 Introduction

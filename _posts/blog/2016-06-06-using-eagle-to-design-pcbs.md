@@ -2,8 +2,8 @@
 layout: post
 comments: true
 categories: blog
-assets-dir: assets/using-eagle-to-design-pcbs
-header-img: assets/using-eagle-to-design-pcbs/cover.jpg
+assets-dir: assets/blog/using-eagle-to-design-pcbs
+header-img: assets/blog/using-eagle-to-design-pcbs/cover.jpg
 title: Using Eagle to design PCBs
 excerpt: Summary of the PCB design bootcamp taken by Ajinkya Gorad
 author: Krish Mehta

@@ -8,8 +8,8 @@ author: Thariq Shanavas
 category: [Projects]
 tags: [Algorithm, Deep Learning]
 
-assets-dir: assets/path-finder-bot
-header-img: assets/path-finder-bot/cover.jpg
+assets-dir: assets/blog/path-finder-bot
+header-img: assets/blog/path-finder-bot/cover.jpg
 ---
 Okay, so my roomie cum best friend Mohit Kherwa wanted to build a bot which 
 would crash land into some unknown location on Mars but still find its way to

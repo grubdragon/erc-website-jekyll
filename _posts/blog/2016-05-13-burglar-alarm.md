@@ -8,7 +8,7 @@ author: Arunabh Ghosh
 category: [Projects]
 tags: [555 Timer, Monostable]
 
-assets-dir: assets/the-making-of-burglar-alarm
+assets-dir: assets/blog/the-making-of-burglar-alarm
 ---
 
 In the First semester along with Pranav, I tried to design a burglar alarm circuit that would go off if the burglar tripped over a copper wire. We built a small scale working model of the circuit and presented it in one of the How Things Work Session which is organised by the Robotics Club in association with the Electronics Club of IIT Bombay.

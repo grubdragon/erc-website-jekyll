@@ -2,8 +2,8 @@
 layout: post
 comments: true
 categories: blog
-assets-dir: assets/pulse-detection-circuit
-header-img: assets/pulse-detection-circuit/cover.jpg
+assets-dir: assets/blog/pulse-detection-circuit
+header-img: assets/blog/pulse-detection-circuit/cover.jpg
 title: Pulse Detection Circuit
 excerpt: A simple and interesting application of Analog Electronics for Pulse Detection
 author: Karan Taneja

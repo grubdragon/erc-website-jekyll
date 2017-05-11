@@ -8,8 +8,8 @@ author: Krishna Subramani
 category: [Projects]
 tags: [Arduino, Shift Registers]
 
-assets-dir: assets/game-of-pong
-header-img: assets/game-of-pong/cover.jpg
+assets-dir: assets/blog/game-of-pong
+header-img: assets/blog/game-of-pong/cover.jpg
 ---
 
 What is the best time for lukha? After the mid-sem or end-sem

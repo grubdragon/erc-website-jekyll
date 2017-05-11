@@ -2,13 +2,13 @@
 layout: post
 comments: true
 categories: blog
-assets-dir: assets/meanshift-algorithm-for-image-processing
+assets-dir: assets/blog/meanshift-algorithm-for-image-processing
 title: Meanshift Algorithm for Image Processing
 excerpt: A very basic, yet essential, algorithm for removing noise and forming Clusters in an image.
 author: Dhruv Ilesh Shah
 category: [Informative]
 tags: [Algorithms, Mean Shift Algorithm]
-header-img: "assets/meanshift-algorithm-for-image-processing/cover.png"
+header-img: "assets/blog/meanshift-algorithm-for-image-processing/cover.png"
 ---
 **<u>Pre-requisites</u>** - Basic idea of matrices(wrt pixels), a <a href="https://en.wikipedia.org/wiki/Kernel_(image_processing)">kernel or convolution matrix</a>, local binary patterns, high-school statistics principles and *enthu*!
 ![Original Image]({{ site.baseurl }}/{{ page.assets-dir }}/demo_org.png) ![Image after using the algorithm]({{ site.baseurl }}/{{ page.assets-dir }}/demo_4.png) <br />

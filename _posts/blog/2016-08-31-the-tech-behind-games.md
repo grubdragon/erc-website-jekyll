@@ -8,8 +8,8 @@ author: Shrvan Amlekar
 category: [Informative]
 tags: [Sensors, Augmented Reality]
 
-assets-dir: assets/the-tech-behind-games
-header-img: "assets/the-tech-behind-games/cover.jpg"
+assets-dir: assets/blog/the-tech-behind-games
+header-img: "assets/blog/the-tech-behind-games/cover.jpg"
 ---
 
 Gaming is one of the most popular form of entertainment (and probably will hold this position forever).

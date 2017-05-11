@@ -8,7 +8,7 @@ author: Meet Udeshi
 category: [Informative]
 tags: [ADC, Dither]
 
-assets-dir: assets/improving-adcs-with-noise
+assets-dir: assets/blog/improving-adcs-with-noise
 ---
 
 Everybody has this presumed notion that noise in an electronic system is bad.

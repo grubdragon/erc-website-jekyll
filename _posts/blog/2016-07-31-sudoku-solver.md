@@ -2,8 +2,8 @@
 layout: post
 comments: true
 categories: blog
-assets-dir: assets/sudoku-solver
-header-img: assets/sudoku-solver/cover.jpg
+assets-dir: assets/blog/sudoku-solver
+header-img: assets/blog/sudoku-solver/cover.jpg
 title: Sudoku Solver
 excerpt: OpenCV project for reading and solving Sudokus
 author: Anant Jain

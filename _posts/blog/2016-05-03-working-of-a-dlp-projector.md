@@ -8,8 +8,8 @@ author: Pranav Sankhe
 category: [Informative]
 tags: [Light Processing]
 
-assets-dir: assets/working-of-a-dlp-projector
-header-img: "assets/working-of-a-dlp-projector/cover.jpg"
+assets-dir: assets/blog/working-of-a-dlp-projector
+header-img: "assets/blog/working-of-a-dlp-projector/cover.jpg"
 ---
 
 The Robotics Club in association of The Electronics Club of IIT Bombay conducts regular sessions named “How Things Work?” where we open up a device used in everyday life and try to understand how it works.

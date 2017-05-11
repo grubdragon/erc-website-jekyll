@@ -8,8 +8,8 @@ author: Yash Bhalgat
 category: [Informative]
 tags: [Neural Networks, Deep Learning]
 
-assets-dir: assets/deep-learning-based-image-classification
-header-img: assets/deep-learning-based-image-classification/cover.jpg
+assets-dir: assets/blog/deep-learning-based-image-classification
+header-img: assets/blog/deep-learning-based-image-classification/cover.jpg
 ---
 
 #### Pre-requisites

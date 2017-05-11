@@ -9,7 +9,7 @@ author: Riddhish Bhalodia
 category: [Tutorials]
 tags: [Raspberry Pi, OpenCV]
 
-assets-dir: assets/using-opencv-on-raspberry-pi
+assets-dir: assets/blog/using-opencv-on-raspberry-pi
 ---
 
 

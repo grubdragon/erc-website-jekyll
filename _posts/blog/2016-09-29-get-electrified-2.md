@@ -8,8 +8,8 @@ author: Pranav Sankhe
 category: [Projects]
 tags: [Analog Electronics, Xyloband, Audio Amplifier]
 
-assets-dir: assets/get-electrified-2
-header-img: "assets/get-electrified-2/cover.jpg"
+assets-dir: assets/blog/get-electrified-2
+header-img: "assets/blog/get-electrified-2/cover.jpg"
 ---
 
 Greetings from Electronics Club IIT Bombay

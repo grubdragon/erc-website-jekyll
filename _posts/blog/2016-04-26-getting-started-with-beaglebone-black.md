@@ -2,13 +2,13 @@
 layout: post
 comments: true
 categories: blog
-assets-dir: assets/getting-started-with-beaglebone-black
+assets-dir: assets/blog/getting-started-with-beaglebone-black
 title: Getting Started with Beaglebone Black
 excerpt: Simple tutorial on using the BBB.
 author: Dhruv Ilesh Shah
 category: [Tutorials]
 tags: [Programming, Development, Tutorial]
-header-img: "assets/getting-started-with-beaglebone-black/cover.jpg"
+header-img: "assets/blog/getting-started-with-beaglebone-black/cover.jpg"
 ---
 **<u>You will need</u>** - A BeagleBone Black AM335x (an older version should also do.), a PC (I have used a Linux distribution), Ethernet Cables and Ports <i>and lots of patience.</i>
 ![The BeagleBone Black]({{ site.baseurl }}/{{ page.assets-dir }}/bbb.jpg)

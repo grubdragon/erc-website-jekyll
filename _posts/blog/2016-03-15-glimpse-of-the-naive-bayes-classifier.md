@@ -8,8 +8,8 @@ author: Riddhish Bhalodia
 category: [Informative]
 tags: [Machine Learning,OpenCV]
 
-assets-dir: assets/glimpse-of-the-naive-bayes-classifier
-header-img: assets/glimpse-of-the-naive-bayes-classifier/cover.jpg
+assets-dir: assets/blog/glimpse-of-the-naive-bayes-classifier
+header-img: assets/blog/glimpse-of-the-naive-bayes-classifier/cover.jpg
 ---
 
 
