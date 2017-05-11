@@ -16,4 +16,4 @@ Originally, we were two separate clubs, but redundancy drove us into a merger. D
 
 <img src="https://stab-iitb.org/electronics-club/assets/ico/logo.png" width="128" height="128" alt="Electronics Club, IITB"> <img src="http://www.clipartbest.com/cliparts/9Tp/6qL/9Tp6qLzrc.png" width="128" height="128"> <img src="https://stab-iitb.org/robotics-club/images/header_image.png" width="128" height="128" alt="Robotics Club, IITB">
 
-See a [live version of the theme: So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
+See a [temp live version of the website](http://grubdragon.github.io/erciitb/) hosted on GitHub.
