@@ -11,6 +11,7 @@ tags: [Algorithms, Mean Shift Algorithm]
 header-img: "assets/blog/meanshift-algorithm-for-image-processing/cover.png"
 ---
 **<u>Pre-requisites</u>** - Basic idea of matrices(wrt pixels), a <a href="https://en.wikipedia.org/wiki/Kernel_(image_processing)">kernel or convolution matrix</a>, local binary patterns, high-school statistics principles and *enthu*!
+
 ![Original Image]({{ site.baseurl }}/{{ page.assets-dir }}/demo_org.png) ![Image after using the algorithm]({{ site.baseurl }}/{{ page.assets-dir }}/demo_4.png) <br />
 One of the most common and important applications of Image Processing remains *Edge-Detection*. The 'algorithm' followed for <a href="https://en.wikipedia.org/wiki/Canny_edge_detector">Canny-edge Detection</a> is as follows:
 
@@ -68,7 +69,11 @@ As you can see in the images below, as the number of iterations increase, modes 
 ![Original Image - 2 modes]({{ site.baseurl }}/{{ page.assets-dir }}/Meanshift0.jpg) ![100 Iterations]({{ site.baseurl }}/{{ page.assets-dir }}/Meanshift100.jpg) ![500 Iterations]({{ site.baseurl }}/{{ page.assets-dir }}/Meanshift500.jpg)
 
 *'h' or resolution is a parameter used in the statistical definition. Since it is in the denominator, it can play a huge role in the smoothening effect as shown. In general, a large 'h' would mean faster convergence, larger clusters and more loss of information. This value can be tweaked as desired, for optimal results.
-![Original Image]({{ site.baseurl }}/{{ page.assets-dir }}/meanshift_H_org.png) ![h = 6]({{ site.baseurl }}/{{ page.assets-dir }}/meanshift_H_6.png) ![h = 16]({{ site.baseurl }}/{{ page.assets-dir }}/meanshift_H_16.png)
+
+![Original Image]({{ site.baseurl }}/{{ page.assets-dir }}/meanshift_H_org.png) 
+
+
+![h = 6]({{ site.baseurl }}/{{ page.assets-dir }}/meanshift_H_6.png) ![h = 16]({{ site.baseurl }}/{{ page.assets-dir }}/meanshift_H_16.png)
 
 For more such example, you can refer to <a href="https://www.inf.tu-dresden.de/content/institutes/ki/is/VORTRAG/Vortrag_Huong_Nguyen.pdf">this PDF</a>.
 
