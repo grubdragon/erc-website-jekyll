@@ -49,4 +49,4 @@ After having scanned the area, the distance and the angle w.r.t median of the bo
 
 Here's the **Arduino code** (a pretty clumsy code because i am a noob in programming :p)
 
-![Code]({{ site.baseurl }}/{{ page.assets_dir }}/sankhe_gripper.ino)
+[Code]({{ site.baseurl }}/{{ page.assets_dir }}/sankhe_gripper.ino)
