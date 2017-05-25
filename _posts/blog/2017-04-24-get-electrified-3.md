@@ -8,8 +8,8 @@ category: [Informative]
 categories: blog
 share: true
 tags: [Digital Electronics, Adder, MUX]
-assets-dir: assets/get-electrified-3
-header-img: assets/get-electrified-3/cover.jpg
+assets-dir: assets/blog/get-electrified-3
+header-img: /assets/blog/get-electrified-3/cover.jpg
 ---
 
 Electronics club conducted its last electrified session on 18th March, 2017. It was totally awesome as we got an opportunity to make a half adder, full adder, subtractor and priority encoder. Along with that we also learnt some cool stuff about digital circuits. 
@@ -42,8 +42,7 @@ The circuit diagram and truth table of a half adder and full adder is shown belo
 
 ![Half Adder]({{ site.baseurl }}/{{ page.assets-dir }}/image_1.png)
 
-![Full Adder]({{ site.baseurl }}/{{ page.assets-dir }}/image_2.png)                                                                     
-
+![Full Adder]({{ site.baseurl }}/{{ page.assets-dir }}/image_2.png)
 	                      
 
 ## Subtractor:

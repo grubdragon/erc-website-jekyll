@@ -19,10 +19,17 @@ For special situations such as cross overs where robot can have more than one pa
 
 The main electronics/mechanical components that will be used in making this line follower robot are IR sensors, motor-drivers and microcontroller. 
 
-## Block Diagram
-![Block Diagram]({{ site.baseurl }}/{{ page.assets-dir }}/block_diagram.png)
+<h1>TABLE OF CONTENTS</h1>
 
-## Sensors
+* TOC
+{:toc}
+<hr>
+
+## BLOCK DIAGRAM
+![Block Diagram]({{ site.baseurl }}/{{ page.assets-dir }}/block_diagram.png)
+<hr>
+
+## SENSORS
 Sensors are required to detect position of the line to be followed with respect to the robot’s position. Most widely used sensors for the line follower robot are __photosensors__. They are based on the basic observation that “the white surface reflects the light and the black surface absorbs it”.IR sensors are used preferably to avoid interference with visible light.
 
 Sensor circuit contains an emitter and a detector. Photodetector is used to detect the intensity of light reflected. The corresponding analog voltage is induced based on the intensity of reflected light.
@@ -30,8 +37,9 @@ Sensor circuit contains an emitter and a detector. Photodetector is used to dete
 The analog voltage is converted to digital voltage by ADC and compared with a certain threshold to generate a logic ‘1’ or ‘0’ which is used by the controller.
 
 The main algorithm behind making the Line Follower Bot is the PID Algorithm, which is described in detail below.
+<hr>
 
-## PID Algorithm
+## PID ALGORITHM
 First off, let’s start with an example. You want to build a system to make a car run at some constant speed, say 40 Km/h. What could possibly be done? Well, you could fix the accelerator at some carefully calibrated position. But hey, this wouldn’t work so well in the long run, would it? The calibration can go off with time, and it most certainly won’t work on slopes. What could possibly be done?
 
 Yep! We need to continuously monitor the car’s speed and “press the accelerator more if it is going too slow and press the accelerator less if it is going too fast. If it is going too fast even after the accelerator is completely released, then press the brakes.” Now that can be called a control loop, where you monitor the output and feed some of it it to the input.
@@ -109,8 +117,9 @@ Now, coming to the technicalities of the code- The code can either be written in
 [Link](https://stab-iitb.org/electronics-club/tutorials/avr/) to Arduino tutorial
 
 [Here's](https://www.facebook.com/electronicshub.org/videos/1100561919966374/?autoplay_reason=all_page_organic_allowed&video_container_type=0&video_creator_product_type=2&app_id=2392950137) an awesome Line Follower bot in action.
+<hr>
 
-### Line Follower bots in action (LF 2016, IIT Bombay)
+## LINE FOLLOWER BOTS IN ACTION (LF 2016, IIT Bombay)
 Team: Bot Swag 4.0 - [https://www.facebook.com/profile.php?id=100010041307477&fref=ts](https://www.facebook.com/profile.php?id=100010041307477&fref=ts)
 
 Team: Illuminati - [https://www.facebook.com/dhruv.ilesh/videos/vb.100000452136929/1173025362722524/?type=2&theater&__mref=message_bubble](https://www.facebook.com/dhruv.ilesh/videos/vb.100000452136929/1173025362722524/?type=2&theater&__mref=message_bubble)
