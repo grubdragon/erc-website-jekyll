@@ -2,6 +2,8 @@
 layout: tutorial
 title: Batteries
 description: Power it up!
+permalink: /tutorials/Batteries
+contributors: Aditya Kadmawala
 categories: tutorials
 comments: true
 assets-dir: assets/tutorials/Batteries

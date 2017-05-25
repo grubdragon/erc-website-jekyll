@@ -3,7 +3,9 @@ layout: tutorial
 comments: true
 description: "A bot following a specified line using PID control mechanism"
 assets-dir: assets/tutorials/LF
+permalink: /tutorials/LF
 title: Line Follower Bot
+contributors: Shobhna Mishra, Tanya Choudhary, Thariq Srinivas
 categories: tutorials
 tags: [Sensors, PID, bot, IR]
 LaTeX : true

@@ -35,9 +35,9 @@
         -->
         <span class="author vcard">By <span class="fn">{{ author }}</span></span>
         
-
+	{% if page.last_updated %}
         <span class="entry-date date published"><time datetime="{{ page.last_updated | date_to_xmlschema }}"><i class="fa fa-calendar-o"></i>&nbsp;<strong>Last Updated:</strong> {{ page.last_updated | last_updated: "%B %d, %Y" }}</time></span>
-        
+        {% endif %}
         <!--
         {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}"><i class="fa fa-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
         -->

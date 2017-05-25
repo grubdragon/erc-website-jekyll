@@ -1,15 +1,15 @@
 ---
 layout: post
 comments: true
-
 title: Get Electrified 3
 excerpt: Tinkering with Digital Electronics!
 author: Mayanka Medhe
 category: [Informative]
+categories: blog
+share: true
 tags: [Digital Electronics, Adder, MUX]
-
 assets-dir: assets/get-electrified-3
-header-img: "assets/get-electrified-3/cover.jpg"
+header-img: assets/get-electrified-3/cover.jpg
 ---
 
 Electronics club conducted its last electrified session on 18th March, 2017. It was totally awesome as we got an opportunity to make a half adder, full adder, subtractor and priority encoder. Along with that we also learnt some cool stuff about digital circuits. 
