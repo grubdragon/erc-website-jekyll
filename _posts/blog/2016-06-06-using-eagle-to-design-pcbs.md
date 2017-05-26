@@ -21,7 +21,7 @@ Printed Circuit Board of the required circuit is very useful.
 
 Have a look:
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image03.jpg)
+![image]({{ site.url }}/{{ page.assets-dir }}/image03.jpg)
 
 **What is Eagle?**
 
@@ -40,7 +40,7 @@ in the final physical way we want.
 
 So, in the session, we decided to make a IC 555 circuit.
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image01.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image01.png)
 
 ### We will go through the following procedure:
 

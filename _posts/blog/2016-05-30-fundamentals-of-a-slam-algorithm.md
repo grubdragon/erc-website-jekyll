@@ -23,12 +23,12 @@ The various algorithm consists of multiple parts; Landmark extraction, data asso
 
 
 - **_Landmark Extraction_**:<br/>
-![Landmark-Extraction]({{ site.baseurl }}/{{ page.assets-dir }}/image_2.jpg)<br/>
+![Landmark-Extraction]({{ site.url }}/{{ page.assets-dir }}/image_2.jpg)<br/>
 Landmarks are distinct, salient features like blobs or corners within an image/frame. Salient features in computer vision are an art in itself. There are dozens of different approaches to extract, describe and match such features. Once extracted they help the robot keep track of where it is by measuring its position relative to the landmark. Landmarks act as memory and helps the robot identify whether it has visited a certain place in the past or not. This leads us to the next part.
 
 
 - **_Data association_**:<br/>
-![Data-Association]({{ site.baseurl }}/{{ page.assets-dir }}/image_3.png)<br/>
+![Data-Association]({{ site.url }}/{{ page.assets-dir }}/image_3.png)<br/>
 The problem of data association is that of matching observed landmarks from different (laser) scans with each other. We have to accurately tell whether we have seen a landmark or if it’s a new landmark. If it’s new we add it to the list of observed landmarks, if it’s old we we can measure the relative position of the robot and then accordingly update the position of the robot as well as the landmark on the map. This brings us to the next logical step.
 
 
@@ -42,7 +42,7 @@ We update the estimated state using sensor data. Using observed landmarks we cal
 Finally depending upon how sure are we about the landmarks and the sensor data we update the robot position to be somewhere between estimated state and calculated state.
 The flowchart shown below depicts the above process :-
 
-![State-Update]({{ site.baseurl }}/{{ page.assets-dir }}/image_1.jpg){:style="margin-left:37px;"}
+![State-Update]({{ site.url }}/{{ page.assets-dir }}/image_1.jpg){:style="margin-left:37px;"}
 
 - **_Landmark update_**:<br/> 
 When we observe a previously unseen feature we update the list of landmarks to include this new feature. Also when we observe a old landmark, if it appears at the same position as in the previous measurement our confidence in that Landmark is increased. This used to decide if we should trust the sensors more than the landmarks or vice-versa.
@@ -51,7 +51,7 @@ After Landmark update the robot moves and then the whole cycle repeats again. Wh
 
 Conclusion
 ----------
-![Application]({{ site.baseurl }}/{{ page.assets-dir }}/image_0.png)<br/>
+![Application]({{ site.url }}/{{ page.assets-dir }}/image_0.png)<br/>
 The main aim of this post was to familiarize one with the basics of a SLAM Algorithm to the level that he/she is now able to go further, read tutorials from the internet and implement a SLAM based robot. The applications of this technology are infinite. It is the key to **self-driving cars**, **unmanned aerial vehicles**, **autonomous underwater vehicles**, **planetary rovers**, **newly emerging domestic robots** and even **robots inside the human body**. It is a big and active research field with many unsolved problems.
 
 

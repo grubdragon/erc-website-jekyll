@@ -31,7 +31,7 @@ There are two types of unwanted voltage signals in the signal received from inpu
 
 #### Here is the final circuit I used:
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image01.jpg)
+![image]({{ site.url }}/{{ page.assets-dir }}/image01.jpg)
 
 ### What modifications were needed in the basic model?
 

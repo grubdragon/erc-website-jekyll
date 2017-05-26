@@ -12,7 +12,7 @@ image:
   feature: robo_rises.jpg
 ---
 
-![Drawing B]({{ site.baseurl }}/{{ page.assets-dir }}/battery1.jpg)
+![Drawing B]({{ site.url }}/{{ page.assets-dir }}/battery1.jpg)
 
 With the advent of portable personal electronics, from cell phones to mp3 players, to laptops and even watches, there has been a massive surge in battery research within the last decade. No longer are your robots limited to bulky low power non-rechargeable batteries, and instead today there is a large assortment to suit your robots' demands. 
 
@@ -44,19 +44,19 @@ When you put two batteries together in parallel that do not have equal charges, 
 ## Alkaline
 They are the most common, easiest to get, and cheapest too. However they are useless, dont buy them. They have low power capacities, are heavy, have trouble supplying large amounts of current in short time periods, and get expensive to constantly replace. The same goes for Zinc-carbonbatteries, which suck even more.
 
-![Drawing B]({{ site.baseurl }}/{{ page.assets-dir }}/battery2.jpg)
+![Drawing B]({{ site.url }}/{{ page.assets-dir }}/battery2.jpg)
 
 
 ## Fuel Cell
 They are finally here for robot builders! Although they are still probably too expensive for most hobbyists (~$400). The technology is rapidly improving, so only a few more years until they become cheaply available. Fuel cells are heavily being pursued in research by companies who want to out do the lithium batteries and make billions of dollars. Basically a fuel cell is a tiny engine the size of a battery, and refillable with methanol or ethanol. They are expected to have a two to three times improvement in energy density over today's Lithium-ion batteries. However it has been estimated that Lithium Ion batteries themselves will probably be developed to have twice the energy capacity as they have today.
 
 
-![Drawing B]({{ site.baseurl }}/{{ page.assets-dir }}/battery3.jpg)
+![Drawing B]({{ site.url }}/{{ page.assets-dir }}/battery3.jpg)
  
 ## Lead Acid
 These batteries were developed in the late 1800s, and were the first commercially practical batteries. They remain popular because they are easy and inexpensive to manufacture. Rechargeable lead-acid batteries have been available since the 1950s and have become the most widely used type of battery today. 
 
-![Drawing B]({{ site.baseurl }}/{{ page.assets-dir }}/battery4.jpg)
+![Drawing B]({{ site.url }}/{{ page.assets-dir }}/battery4.jpg)
 
 So what does this mean for you? Motorcycle lead acid batteries work great for larger low performance type robots. They are great for solar power robots too. Best of all, they are cheap and available off the shelf. Just remember that lead acid batteries have the serious problem of being very large and heavy, need to always be kept charged, and do not have the high discharge rates as the more modern batteries.
 
@@ -68,16 +68,16 @@ There are three main types of lead acid batteries. Wet Cell (flooded), Gel Cell,
 ## Lithium (Li-ion batteries) 
 They are the new standard for portable power. Li-ion batteries have the same high energy capacity as NiMHs, power output rates of NiCads, and weigh about 20%-35% less. They also have zero memory effect problems, meaning you can recharge whenever. Although lithium batteries are the most advanced for portable power, they are also usually the most expensive. Prices have been significantly dropping lately however, and I predict NiMH and NiCAD types soon becoming obsolete. They are made out of totally non-toxic material, making them safe for cute squirrels and pretty trees. Just remember, lithium ignites very easily, and forms large quantities of hydrogen when put in contact with water, so don't shoot at it or blow it up or anything of that nature. Also, fire extinguishers are usually water based, so dont use them on lithium battery fires. Bad stuff will happen. There are also lithium polymer batteries. This battery type has extremely high current output capabilities (30A+), but less power density than lithium ion batteries.
 
-![Drawing B]({{ site.baseurl }}/{{ page.assets-dir }}/battery5.jpg)
+![Drawing B]({{ site.url }}/{{ page.assets-dir }}/battery5.jpg)
 
 
 ## NiCad (Nickel Cadmium)
 They are good for small to medium size range robots. They have the highest current output, are more affordable than NiMH's, and can be recharged within one or two hours. However recharging NiCad batteries is a black art. Ever notice how some older cell phone batteries just do not last as long on a single charge as when you first bought it? This is called memory effect. A NiCad, over many charges, can only store less and less energy after each recharge. To prevent memory effect, whenever you wish to recharge your NiCad, you must first fully discharge it. Just hook up both battery leads to a cute kitten until it stops moving. I guess a motor would work too . . . And remember, NiCad batteries contain toxic cadmium stuff, so save a squirrel and recycle/dispose of it properly.
 
-![Drawing B]({{ site.baseurl }}/{{ page.assets-dir }}/battery6.jpg)
+![Drawing B]({{ site.url }}/{{ page.assets-dir }}/battery6.jpg)
 
 ## NiMH (Nickel Metal Hydride)
 Older cell phone batteries were often NiMH. You can recharge them as much as you want, they have good current output, and have the highest energy capacity. I would recommend them for small size robots and for powering circuits. Note, NiMH batteries usually take like 10 hours to recharge depending on various factors. Also, some NiMH batteries have a high self-discharge rate. In other words, leave it for a week or so, and you will find an entirely discharged battery. But fortunately NiMH battaries can last many more cycles than your typical NiCad battery.
 
-![Drawing B]({{ site.baseurl }}/{{ page.assets-dir }}/battery7.jpg)
+![Drawing B]({{ site.url }}/{{ page.assets-dir }}/battery7.jpg)
 

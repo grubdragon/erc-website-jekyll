@@ -33,7 +33,7 @@ mathematical operations such as addition, subtraction , integration and
 differentiation etc.
 
 For more details of Opamps you can refer our
-[*tutorial*]({{ site.baseurl }}/tutorials/basic_electronics/)
+[*tutorial*]({{ site.url }}/tutorials/basic_electronics/)
 on basic electronics.
 
 ### Bipolar Junction Transistors
@@ -66,7 +66,7 @@ frequency.
 
 Here is the circuit of xyloband:
 
-![xyloband_circuit]({{ site.baseurl }}/{{ page.assets-dir }}/xylo_band_circuit.jpg)
+![xyloband_circuit]({{ site.url }}/{{ page.assets-dir }}/xylo_band_circuit.jpg)
 
 We start by taking the input of music via a microphone. We can model the
 microphone as unipolar resistor. Therefore we have made a voltage
@@ -118,7 +118,7 @@ speaker.
 
 Here is the circuit diagram of the Audio Amplifier:
 
-![audio_amplifier_circuit]({{ site.baseurl }}/{{ page.assets-dir }}/audio_amplifier_circuit.jpg)
+![audio_amplifier_circuit]({{ site.url }}/{{ page.assets-dir }}/audio_amplifier_circuit.jpg)
 
 Can you see an AC source in the left part of circuit ? That’s where we
 connect the audio jack output from our cell phones.

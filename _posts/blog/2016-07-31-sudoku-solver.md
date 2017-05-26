@@ -40,7 +40,7 @@ I was more interested in the image processing part as there are fixed algorithm 
 
 First of all we need is an input image.  We need to load a sudoku image .
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image1.jpg)
+![image]({{ site.url }}/{{ page.assets-dir }}/image1.jpg)
 
 {% highlight c %}
      Mat src = imread("sudoku.jpg",CV_LOAD_IMAGE_UNCHANGED);
@@ -67,7 +67,7 @@ After we have converted the image into a gray scale image we need to remove the 
 
  I  have done just noise removal and adaptive thresholding and  it is working so haven't done anything extra. Below is the result:
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image2.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image2.png)
 
 ### Extracting the Sudoku :
 
@@ -114,7 +114,7 @@ Now we draw the contour on our image just to check it.
     drawContours(src, contours, p, Scalar(255, 0, 0), 1, 8);
 {% endhighlight %}
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image3.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image3.png)
 
 Now we have found out the boundary of the sudoku and next we need to to do is extract this much part and then work on it.
 
@@ -185,7 +185,7 @@ Now we have the input and output array both what we need to do is apply prespect
 
 ### The result we get is:  
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image4.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image4.png)
 
 Now apply the pre-processing as we did earlier and get the thresholded image and now we need to extract each grids centre the digit and then finally apply OCR.
 So, we can extract each grids as we know our image is a matrix of 450*450 and therefore our every sub grids will be a matrix of 50*50 so we can extract each grid by extracting the sub grids of 50*50 and store all the images in a vector.
@@ -227,9 +227,9 @@ Now we have each small grid and it may contain digits or not so we will set a th
 {% endhighlight %}
 ### The results is as follows:  
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image5.png)
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image6.png)
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image7.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image5.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image6.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image7.png)
 
 Now we have all the digits centered what we now need to do is apply OCR . There are huge number of techniques for implementing OCR and huge number of pattern recognition algorithm and for my implementation i choose K-Nearest Neighbour algorithm as it is already available in OpenCV library.The algorithm caches all training samples and predicts responses for new sample by analyzing a certain number of the nearest neighbour of the sample using voting and calculated mean. For it you need to create sample data and train those images and recognise digits from previously trained data. I created training samples by collecting images from various sudoku .My training data can be found out on this [link](https://drive.google.com/open?id=0ByDK_y_Ss5KbSFJkU19fSG15QXc).
 

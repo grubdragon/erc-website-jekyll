@@ -21,7 +21,7 @@ Some of the major breakthroughs are Gyroscope, Accelerometer, Magnetometer, etc.
 
 One key element of interaction is local motion of the phone, such as linear acceleration, rotational velocity, etc.
 
-![accel_gyro]({{ site.baseurl }}/{{ page.assets-dir }}/accel_gyro.jpg)
+![accel_gyro]({{ site.url }}/{{ page.assets-dir }}/accel_gyro.jpg)
 
  - **Accelerometer**
 
@@ -36,7 +36,7 @@ One key element of interaction is local motion of the phone, such as linear acce
    One capacitor is used for each axis X, Y, Z and hence we can get the acceleration
    vector in 3D.
 
-![capacitor]({{ site.baseurl }}/{{ page.assets-dir }}/capacitor_diagram.jpg)
+![capacitor]({{ site.url }}/{{ page.assets-dir }}/capacitor_diagram.jpg)
 
  - **Gyroscope** 
 
@@ -88,7 +88,7 @@ distance between us and the satellite as we also know the time we received the w
 and hence time it took to travel the distance. The speed of the wave is equal
 to the speed of light because it is an electromagnetic wave.
 
-![gps]({{ site.baseurl }}/{{ page.assets-dir }}/gps.jpg)
+![gps]({{ site.url }}/{{ page.assets-dir }}/gps.jpg)
 
 Using this distance measurement from 3 different satellites and their orbital position
 we get three spheres as loci of our position. The earth is the fourth sphere. Using coordinate geometry
@@ -103,7 +103,7 @@ As the name suggests it basically enhances the real world by adding the digital
 graphics to real world. This is done by displaying the real world and additional
 "augmented" data together on one screen.
 
-![AR]({{ site.baseurl }}/{{ page.assets-dir }}/ar.jpg)
+![AR]({{ site.url }}/{{ page.assets-dir }}/ar.jpg)
 
 This has varied applications like visual art, greeting cards, video games
 (any fans of Pokemon Go or Ingress here!)

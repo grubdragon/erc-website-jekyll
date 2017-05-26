@@ -22,7 +22,7 @@ chose to make a 7\*5 LED array(matrix) for our screen.
 
 The Circuit Diagram for the Screen :
 
-![LED Array]({{ site.baseurl }}/{{ page.assets-dir }}/image08.gif)
+![LED Array]({{ site.url }}/{{ page.assets-dir }}/image08.gif)
 
 To check whether the LED matrix was working properly, we tried to make a
 scrolling LED display(Like the one in a Railway Station).
@@ -69,17 +69,17 @@ output of one flip-flop is connected to the input of the next one.
 
 #### Pin Layout and Function Table : (IC is 74HC595)
 
-![IC Connections 1]({{ site.baseurl }}/{{ page.assets-dir }}/image04.png)
-![IC Connections 2]({{ site.baseurl }}/{{ page.assets-dir }}/image09.png)
+![IC Connections 1]({{ site.url }}/{{ page.assets-dir }}/image04.png)
+![IC Connections 2]({{ site.url }}/{{ page.assets-dir }}/image09.png)
 
 
 #### Circuit Diagram :
 
-![Update Circuit]({{ site.baseurl }}/{{ page.assets-dir }}/image02.png)
+![Update Circuit]({{ site.url }}/{{ page.assets-dir }}/image02.png)
 
 #### Arduino Connection Diagram :
 
-![Arduino Connections]({{ site.baseurl }}/{{ page.assets-dir }}/image06.png)
+![Arduino Connections]({{ site.url }}/{{ page.assets-dir }}/image06.png)
 
 #### This is how the IC works :
 

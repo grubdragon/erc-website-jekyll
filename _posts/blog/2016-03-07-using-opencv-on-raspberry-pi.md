@@ -13,7 +13,7 @@ assets-dir: assets/blog/using-opencv-on-raspberry-pi
 ---
 
 
-![raspberry pi logo]({{ site.baseurl }}/{{ page.assets-dir }}/rpi.jpeg)
+![raspberry pi logo]({{ site.url }}/{{ page.assets-dir }}/rpi.jpeg)
 
 Raspberry Pi is slowly finding a lot of applications related to image processing. I am going to provide a little overview of how one can get OpenCV up and running on your pi. I will be using tightVNC server for getting the display.
 
@@ -22,7 +22,7 @@ The first step is getting OpenCV installed on your pi, we will follow the exact 
 **<u>Step Zero</u>**
 
 Before we begin, I will tell you how my pi is connected so there is no confusion after moving further.  
-I have my pi connected to my wi-fi router with a LAN cable and have changed it to a _static IP configuration._ I am accessing it through my terminal using the ssh channel. In short what I have now and what you should have is a rpi with it's terminal. If you are totally new to rpi, I suggest you to take a look at these tutorials for setting up your pi [get you pi up and running]({{ site.baseurl }}/tutorials/r_pi).
+I have my pi connected to my wi-fi router with a LAN cable and have changed it to a _static IP configuration._ I am accessing it through my terminal using the ssh channel. In short what I have now and what you should have is a rpi with it's terminal. If you are totally new to rpi, I suggest you to take a look at these tutorials for setting up your pi [get you pi up and running]({{ site.url }}/tutorials/r_pi).
 
 **<u>Step One</u>**
 
@@ -44,10 +44,10 @@ Here, rpi_ip is the static IP which you would have set for your pi. You will be 
 
 **<u>Step Four</u>**
 
-Now all you need is to get opencv installed on your rpi. To get that done just follow the steps which you will use to install opencv in normal ubuntu based system, if you are comfortable with it then this tutorial stops here for you.For OpenCV installation Just follow the steps listed [here(OpenCV installation on Ubuntu).]({{ site.baseurl }}/{{ page.assets-dir }}/opencv installation.pdf)  
+Now all you need is to get opencv installed on your rpi. To get that done just follow the steps which you will use to install opencv in normal ubuntu based system, if you are comfortable with it then this tutorial stops here for you.For OpenCV installation Just follow the steps listed [here(OpenCV installation on Ubuntu).]({{ site.url }}/{{ page.assets-dir }}/opencv installation.pdf)  
 You will also need two scripts in above installation the opencv installation. Get them from here:  
-[opencv2_4_6_1.sh]({{ site.baseurl }}/{{ page.assets-dir }}/opencv2_4_6_1.sh)  
-[new]({{ site.baseurl }}/{{ page.assets-dir }}/new)
+[opencv2_4_6_1.sh]({{ site.url }}/{{ page.assets-dir }}/opencv2_4_6_1.sh)  
+[new]({{ site.url }}/{{ page.assets-dir }}/new)
 
 **Thank You!**  
 

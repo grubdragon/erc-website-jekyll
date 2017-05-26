@@ -28,9 +28,9 @@ a tachometer.) The bot had three wheels, one freely rotating in the front(castor
 wheel), and two motors (standard 2W) with the rear two, for differential mechanism. 
 And an Arduino, motor driver shield and a 12V battery. Well, so much for the hardware.
 
-![bot image 1]({{ site.baseurl }}/{{ page.assets-dir }}/image00.jpg)
-![bot image 2]({{ site.baseurl }}/{{ page.assets-dir }}/image01.jpg)
-![bot image 3]({{ site.baseurl }}/{{ page.assets-dir }}/image02.jpg)
+![bot image 1]({{ site.url }}/{{ page.assets-dir }}/image00.jpg)
+![bot image 2]({{ site.url }}/{{ page.assets-dir }}/image01.jpg)
+![bot image 3]({{ site.url }}/{{ page.assets-dir }}/image02.jpg)
 
 #### The Algorithm
 

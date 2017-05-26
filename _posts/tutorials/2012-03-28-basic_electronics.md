@@ -32,7 +32,7 @@ amplifier.
 
 The OpAmp is represented by the symbol-
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image00.jpg)
+![image]({{ site.url }}/{{ page.assets-dir }}/image00.jpg)
 
 (The +Vss and –Vss pins are often not shown)
 
@@ -56,7 +56,7 @@ Non-inverting terminal. However, this places some severe restrictions. For one, 
  certainty. This behaviour can be seen in the OpAmp characteristics. (Here, V<sub>d</sub> = V<sub>+</sub>
   - V<sub>-</sub> and Vcc = Vss).
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image01.gif)
+![image]({{ site.url }}/{{ page.assets-dir }}/image01.gif)
 
 (The region where V<sub>out</sub> varies in proportion to V<sub>d</sub> is called the linear region 
 and beyond that it is called the saturation region – V<sub>out</sub> is said to have saturated to a 
@@ -64,7 +64,7 @@ constant voltage.)
 
 To overcome this difficulty, we come up with another configuration.
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image02.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image02.png)
 
 The Output voltage is taken between Vout and ground.
 
@@ -101,7 +101,7 @@ the OpAmp can be used as an amplifier.
 
 Another such configuration would be,
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image03.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image03.png)
 
 The output voltage turns out to be
 V<sub>out</sub> = - V<sub>in</sub> * R<sub>F</sub>/R<sub>in</sub>.
@@ -112,7 +112,7 @@ Another use of an OpAmp is to provide a [‘buffer stage’](https://en.wikipedi
 Normally, large currents cannot be drawn out of sensors, to be used for further processing. However, a reasonably 
 large current can be drawn out of the OpAmp’s output terminal, when used in the following configuration.
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image04.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image04.png)
 
 (Do note that the current drawn by the external circuit comes through the output terminal of the OpAmp, and 
 negligible current flows into any of the input pins) While in the expression for the amplification factor, 
@@ -145,14 +145,14 @@ Multiplexing is the generic term used to describe the operation of sending one o
 
 The 4-to-1 channel multiplexer that is depicted in the adjoining diagram, selects an input line corresponding to the input provided to the selection bits. In this way, a MUX somehow acts like an equivalent of a mechanical multi-way switch.
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image05.jpg)
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image06.gif)
+![image]({{ site.url }}/{{ page.assets-dir }}/image05.jpg)
+![image]({{ site.url }}/{{ page.assets-dir }}/image06.gif)
 
 From a coder’s perspective, a multiplexer could be seen as an analogue of the switch-case statement, with the case values represented by the different input values, say I0, I1, I2, and I3, while the value being tested under switch, represented by the binary number S1S0. 
 
 Going a little into the logic aspect of it, the multiplexer’s (4:1) truth table looks like the following:
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image07.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image07.png)
 
 So when does one use a multiplexer?
 In general, a multiplexer helps transmit multiple data using a single line. For example, a multiplexer is used to increase the efficiency of the communication system by allowing the transmission of data such as audio & video data from different channels via cables and single lines. Another similar application is in linking computer memory to various I/O devices, where multiplexers help reduce number of connecting copper wires.
@@ -162,13 +162,13 @@ In general, a multiplexer helps transmit multiple data using a single line. For 
 
 The data distributor, known more commonly as a Demultiplexer or “Demux” for short, is the exact opposite of the Multiplexer. The demultiplexer takes one single input data line and then switches it to any one of a number of individual output lines one at a time. The demultiplexer converts a serial data signal at the input to a parallel data.
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image08.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image08.png)
 
 The function of the Demultiplexer is to switch one common data input line to any one of the 4 output data lines A to D in our example above. As with the multiplexer the individual solid state switches are selected by the binary input address code on the output select pins “a” and “b” as shown.
 
 Truth table for demultiplexer:
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image09.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image09.png)
 
 A typical application of the demultiplexer is to control multiple circuit lines using few selection lines.
 Demultiplexers are used in combination with multiplexers communication system to carry out the process of data transmission. Demultiplexer are also used in serial to parallel conversion.  In this technique, serial data is given as an input to the De-multiplexer at a regular interval, and a counter is attached to the demultiplexer at the control input to detect the data signal at the output of the demultiplexer.
@@ -179,7 +179,7 @@ We did a small demonstration to see the working of a De-multiplexer in action. W
 
 Let’s look at the pin configuration of the IC.
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image10.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image10.png)
 
 #### Connections of the circuit
 
@@ -213,11 +213,11 @@ emits infrared rays and those rays are received by the photodiode when
 they are reflected by some surface. The circuit is assembled as
 following :
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image11.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image11.png)
 
 To check the circuit connect it with arduino:
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image12.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image12.png)
 
 Now keep your hand at some height above the LED . Meanwhile open the
 serial monitor on arduino IDE and notice the values on it . Now slowly
@@ -240,7 +240,7 @@ something which produces energy. In IR sensor IR sensor produces IR rays
 which are detected by the photodiode but here there is no such source.
 The IR rays which the PIR sensor collects is produced by the movement of
 body near it . The circuit of the sensor is as follows :
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image13.png)
+![image]({{ site.url }}/{{ page.assets-dir }}/image13.png)
 
 The PIR sensor contains , inside it , a material called pyroelectric
 material which produces current on receiving infrared waves. It contains
@@ -279,7 +279,7 @@ Material you will need:
 
 The circuit:
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image14.jpg)
+![image]({{ site.url }}/{{ page.assets-dir }}/image14.jpg)
 
 In the circuit, we have attached a fixed resistor of 10kΩ. Thus creating
 a voltage divider arrangement. Now when the flex sensor is bent, the
@@ -340,7 +340,7 @@ is bent.
 
 It is more often than not that we require our model cars or bots or even basic circuits to measure distance of various objects in their surroundings. For this we require ultrasonic sensors. I am going to discuss the use of a ultrasonic sensor module HC-SR04.
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image15.jpg)
+![image]({{ site.url }}/{{ page.assets-dir }}/image15.jpg)
 
 It has a range of 5-400 cm. It contains two transducers- one ultrasonic transmitter and one receiver as well as a control circuit.
 
@@ -368,7 +368,7 @@ I did a small demonstration showing how to use ultrasonic sensor HC-SR04. You ca
 
 Connections of the circuit are as shown in the below diagram:
 
-![image]({{ site.baseurl }}/{{ page.assets-dir }}/image16.jpg)
+![image]({{ site.url }}/{{ page.assets-dir }}/image16.jpg)
 
 Connected Vcc with 5v. Ground to 0v.
 Trigpin and echopin are connected to pins 8 and 7 respectively of arduino.

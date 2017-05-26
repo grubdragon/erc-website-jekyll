@@ -15,12 +15,12 @@ In winters of my freshie year I wanted to built a bot which when left into some 
 To detect objects there are two ways one is using light and other is using sound. I chose sound since I wanted a good range of about 2 metres. For this I needed a sound emitting cum detecting sensor to measure the distance from the object.The sensor
 which I used was HC SR04 ultrasonic sensor which is capable of emitting as well as detecting ultrasonic sound signals. Here is how it looks:
 
-![Ultrasonic Sensor]({{ site.baseurl }}/{{ page.assets_dir }}/A.png)
+![Ultrasonic Sensor]({{ site.url }}/{{ page.assets_dir }}/A.png)
 
 This sensor which was fixed to a servo motor which essentially was attached to the front of the bot. The bot had 3 wheels one of them was a castor wheel which was in front and the other two were the rear wheels.
 For the gripper I used worm-screw mechanism.
 
-![Gripper]({{ site.baseurl }}/{{ page.assets_dir }}/B.png)
+![Gripper]({{ site.url }}/{{ page.assets_dir }}/B.png)
 
 So enough for the hardware I guess :p.
 
@@ -49,4 +49,4 @@ After having scanned the area, the distance and the angle w.r.t median of the bo
 
 Here's the **Arduino code** (a pretty clumsy code because i am a noob in programming :p)
 
-[Code]({{ site.baseurl }}/{{ page.assets_dir }}/sankhe_gripper.ino)
+[Code]({{ site.url }}/{{ page.assets_dir }}/sankhe_gripper.ino)

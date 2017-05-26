@@ -104,7 +104,7 @@ to the expected value $$c + \frac{1}{2}$$
 
 ## Block diagram for adding dither
 
-![block diagram]({{site.baseurl}}/{{ page.assets-dir }}/block_diag.png)
+![block diagram]({{site.url}}/{{ page.assets-dir }}/block_diag.png)
 
 The Sampler just reads the value of its input at $$t = nT$$, hence it gives
 a sample at every $$T$$ seconds. From our previous derivation we can say that

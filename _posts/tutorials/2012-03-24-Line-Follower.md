@@ -26,7 +26,7 @@ The main electronics/mechanical components that will be used in making this line
 <hr>
 
 ## BLOCK DIAGRAM
-![Block Diagram]({{ site.baseurl }}/{{ page.assets-dir }}/block_diagram.png)
+![Block Diagram]({{ site.url }}/{{ page.assets-dir }}/block_diagram.png)
 <hr>
 
 ## SENSORS

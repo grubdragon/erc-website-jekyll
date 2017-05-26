@@ -21,7 +21,7 @@ We basically use a combinational circuit. Not only an adder but we can even make
 
 Combinational circuit is basically used for making those circuits which depends on the current state.
 
-![Combinational Logic Circuits]({{ site.baseurl }}/{{ page.assets-dir }}/image_0.png)
+![Combinational Logic Circuits]({{ site.url }}/{{ page.assets-dir }}/image_0.png)
 
 ##So, let us now begin with how exactly do these combinational circuits function:
 
@@ -39,9 +39,9 @@ The major difference between a half adder and a full adder is that a full-adder 
 
 The circuit diagram and truth table of a half adder and full adder is shown below:
 
-![Half Adder]({{ site.baseurl }}/{{ page.assets-dir }}/image_1.png)
+![Half Adder]({{ site.url }}/{{ page.assets-dir }}/image_1.png)
 
-![Full Adder]({{ site.baseurl }}/{{ page.assets-dir }}/image_2.png)
+![Full Adder]({{ site.url }}/{{ page.assets-dir }}/image_2.png)
 	                      
 
 ## Subtractor:
@@ -56,9 +56,9 @@ Just like in an adder, the subtractor has similar inputs just the difference is 
 
 The circuit diagram and truth table of a half subtractor and full subtractor is shown below:
 
-![Half Subtractor]({{ site.baseurl }}/{{ page.assets-dir }}/image_3.png)
+![Half Subtractor]({{ site.url }}/{{ page.assets-dir }}/image_3.png)
 
-![Full Subtractor]({{ site.baseurl }}/{{ page.assets-dir }}/image_4.png)
+![Full Subtractor]({{ site.url }}/{{ page.assets-dir }}/image_4.png)
 
                       
 
@@ -68,7 +68,7 @@ So basically, what a priority encoder do is that it gives the highest priority o
 
 ## 8-to-3 Bit Priority Encoder:
 
-![8 to 3 bit Priority Encoder]({{ site.baseurl }}/{{ page.assets-dir }}/image_5.png)
+![8 to 3 bit Priority Encoder]({{ site.url }}/{{ page.assets-dir }}/image_5.png)
 
 Where X equals "don’t care", that is it can be either logic “0” or logic “1”.
 
@@ -86,13 +86,13 @@ It is obvious from the name that a demultiplexer do the reverse of what a multip
 
 Circuit diagram and truth table of a multiplexer is shown below:
 
-![4:1 Multiplexer]({{ site.baseurl }}/{{ page.assets-dir }}/image_6.png)  ![Truth Table]({{ site.baseurl }}/{{ page.assets-dir }}/image_7.png)
+![4:1 Multiplexer]({{ site.url }}/{{ page.assets-dir }}/image_6.png)  ![Truth Table]({{ site.url }}/{{ page.assets-dir }}/image_7.png)
 
 
 
 Circuit diagram and truth table of a demultiplexer is shown below:
 
-![1:4 Demultiplexer]({{ site.baseurl }}/{{ page.assets-dir }}/image_8.png)  ![Truth Table]({{ site.baseurl }}/{{ page.assets-dir }}/image_9.png) 
+![1:4 Demultiplexer]({{ site.url }}/{{ page.assets-dir }}/image_8.png)  ![Truth Table]({{ site.url }}/{{ page.assets-dir }}/image_9.png) 
 
   	
 
@@ -110,9 +110,9 @@ Similarly, you can guess the functioning of a decoder. For each input combinatio
 
  
 
-![Encoder]({{ site.baseurl }}/{{ page.assets-dir }}/image_10.png)  
+![Encoder]({{ site.url }}/{{ page.assets-dir }}/image_10.png)  
 
-![Decoder]({{ site.baseurl }}/{{ page.assets-dir }}/image_11.png)
+![Decoder]({{ site.url }}/{{ page.assets-dir }}/image_11.png)
 
  
 
