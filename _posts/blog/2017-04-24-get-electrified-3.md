@@ -6,7 +6,6 @@ excerpt: Tinkering with Digital Electronics!
 author: Mayanka Medhe
 category: [Informative]
 categories: blog
-share: true
 tags: [Digital Electronics, Adder, MUX]
 assets-dir: assets/blog/get-electrified-3
 header-img: /assets/blog/get-electrified-3/cover.jpg
