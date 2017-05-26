@@ -69,11 +69,13 @@
 .snip1495.hover figcaption .icons {
   opacity: 1;
 }
-td {
-  background-color: red;
-  text-align: center;
-  margin: auto;
+@media only screen and (max-width: 480px;) { 
+  #pc{
+    display: none;
+  }
 }
-#wrapper {
-  text-align: center;
+@media screen and (min-width: 480px;) { 
+  #phone{
+    display: none;
+  }
 }
