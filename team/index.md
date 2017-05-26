@@ -5,6 +5,8 @@ assets-dir: assets/team
 comments: false
 excerpt: "Looking for people to contact? Find them here!"
 ---
+<center><h2> Looking for people to contact? Find them here! </h2></center>
+
 <div id="pc">
 <ul style="list-style-type: none;">
     <li>
