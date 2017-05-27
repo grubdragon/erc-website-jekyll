@@ -12,11 +12,12 @@
 - title: Blog
   url: /blog/
 
-- title: Theme Setup
-  url: /theme-setup/
-
 - title: Search
   url: /search/
 
 - title: The Team
   url: /team/
+
+#
+#- title: 
+#  url: //
