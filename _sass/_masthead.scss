@@ -4,6 +4,8 @@
 
 .masthead {
   margin-top: 40px;
+  background-color:$white;
+  color:$base-color;
   @include clearfix;
 
   @include media($medium) {
@@ -26,6 +28,7 @@
       max-width: em(960);
     }
   }
+
 }
 
 /*
@@ -66,7 +69,7 @@
   @include animation-delay(.75s);
 
   a {
-    color: $black;
+    color: $white;//$black;
   }
 }
 
@@ -77,8 +80,8 @@
 .site-description {
   margin-top: 0;
   font-family: $alt-font;
-  @include font-size(16);
-  font-weight: 400;
+  @include font-size(18);
+  font-weight: 600;
   font-style: italic;
   @include animation-duration(1s);
   @include animation-delay(1s);
@@ -86,4 +89,14 @@
   @include media($medium) {
     @include font-size(20);
   }
+}
+
+/*
+  Site Header --added
+  =============================================================================== */
+
+.masthead {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color:$header-color;
 }

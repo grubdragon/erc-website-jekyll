@@ -13,13 +13,16 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-
+  >li {
+    font-weight: 600;//
+  }
   li {
     padding: 8px 0;
-    border-bottom: 1px solid lighten($black,80);
-    border-bottom: 1px solid rgba($black,.10);
-    @include font-size(18,no);
+    border-bottom: 5px solid lighten($black,80);
+    border-bottom: 5px solid rgba($black,.10);
+    @include font-size(28,no);//18
     @include clearfix;
+    
 
     > a {
       border-bottom-width: 0; /* remove underlines from items in post indexes */
@@ -31,10 +34,10 @@
   }
 
   .entry-date {
-    @include font-size(14,no);
+    @include font-size(18,no);//14
     text-transform: uppercase;
     display: none;
-
+    font-weight: normal;
     @include media($medium) {
       display: inline;
     }
@@ -44,7 +47,9 @@
   .excerpt {
     display: block;
     float: none;
-    @include font-size(14, no, 16);
+    font-weight: normal;
+    @include font-size(20, no, 22);//14,no,16
+    padding-top: 10px;//
 
     @include media($medium) {
       width: 70%;

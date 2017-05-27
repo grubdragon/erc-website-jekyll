@@ -19,7 +19,7 @@ sitemap: false
 
 @import "vendor/bourbon/bourbon"; /* Bourbon mixins (bourbon.io) */
 @import "grid-settings"; /* Bourbon Neat settings */
-@import "vendor/neat/neat"; /* Bourbon Neat grid mixins (neat.bourbon.io) */
+@import "vendor/neat/neat"; /* Bourbon Neat grid mizxins (neat.bourbon.io) */
 @import "vendor/font-awesome/font-awesome"; /* Font Awesome icons */
 @import "vendor/magnific-popup/magnific-popup"; /* Magnific Popup lightbox */
 
@@ -46,6 +46,7 @@ sitemap: false
 @import "navigation";
 @import "search";
 @import "footer";
+@import "semantics";//classes for neat
 
 /*
    Page specific
