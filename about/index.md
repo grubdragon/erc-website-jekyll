@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
+title: About Us
+excerpt: ""
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
   feature: so-simple-sample-image-4.jpg
@@ -9,18 +9,6 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
-
-## So Simple Theme is all about:
-
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*
+<p style="font-size:28px">Howdy y'all! We are a club that satiates the techie you all possess! The Electronics and Robotics Club was born from the two of its parent clubs(guess which? :P), 2017 being the year of christening. We are headed by our Manager, Harsh Mundra and our Institute Secretary, Disip Chaturvedi. We are a part of ITC, or the Institute Technical Council, IIT Bombay's primary technical body. Other than that we have six conveners along with many volunteers.</p>
+<p style="font-size:28px">The main function of the club is to organize events like Sessions, Hackathons, GCs, Competitions, Workshops, etc. throughout the year. We also maintain a tutorial database and a blog and we are ALWAYS open for contribuitions.</p>
+<p style="font-size:28px">We love people contacting us, so drop us a line on <a href="https://facebook.com/erciitb">Facebook</a>, we'll be waiting!</p>
