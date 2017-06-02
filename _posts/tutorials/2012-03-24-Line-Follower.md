@@ -6,7 +6,7 @@ assets-dir: assets/tutorials/LF
 permalink: /tutorials/LF
 title: Line Follower Bot
 contributors: Shobhna Mishra, Tanya Choudhary, Thariq Srinivas
-excerpt: This tutorial will guide you through the sensors and the PID algorithm used for making a Line Follower Bot.
+excerpt: Explanation about the sensors and the PID algorithm used for making a Line Follower Bot.
 categories: tutorials
 tags: [Sensors, PID, bot, IR]
 LaTeX : true
