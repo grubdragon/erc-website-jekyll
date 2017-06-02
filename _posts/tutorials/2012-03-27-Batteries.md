@@ -2,7 +2,7 @@
 layout: tutorial
 title: Batteries
 description: Power it up!
-excerpt: Confused about “Which battery should I use for my project?”. There exist different types of batteries in the market. This tutorial will guide you through the types of batteries and the basic conventions & symbols used by these batteries.
+excerpt: Confused about “Which battery should I use for my project?”. There exist different types of batteries in the market. This is a guide for types of batteries and the basic conventions & symbols used by these batteries.
 permalink: /tutorials/Batteries
 contributors: Aditya Kadmawala
 categories: tutorials
