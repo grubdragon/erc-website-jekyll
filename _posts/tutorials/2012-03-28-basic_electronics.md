@@ -7,7 +7,7 @@ categories: tutorials
 topic_folder: basic_electronics
 title: Basic Electronics
 last_updated: 2016-06-19
-excerpt: Learn how basic sensors work and how to use them.
+excerpt: Learn about the basic components of electronic circuits like OPAmps, Multiplexers, etc.  as well as various kinds of sensors like IR, Flex & Ultrasonic sensors.
 contributors: Darshan Tank, Pranav Sankhe, Om Kolhe, Tanya Chaudhary, Sanket Agrawal, Arkya Chatterjee, Parth Kothari
 ---
 
