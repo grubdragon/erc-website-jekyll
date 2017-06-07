@@ -18,6 +18,18 @@
 }
 
 /* feature image */
+.header-img-overflow{
+	height: 700px;
+	max-height: 700px;
+	overflow: hidden;
+	@include media($medium) {
+		height: auto;
+	}
+
+	@include media($small) {
+		height: auto;
+	}
+}
 
 .entry-feature-image {
 	margin: 20px 0 0;
