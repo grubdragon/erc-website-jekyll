@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.4.0
+cache:
+  directories:
+  - vendor/bundle
+install:
+- bundle install
+script:
+- "./scripts/build.sh"
+env:
+  global:
+  - GITHUB_REPO: grubdragon/erciitb
