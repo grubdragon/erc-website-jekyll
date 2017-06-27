@@ -44,7 +44,7 @@ Here, rpi_ip is the static IP which you would have set for your pi. You will be 
 
 **<u>Step Four</u>**
 
-Now all you need is to get opencv installed on your rpi. To get that done just follow the steps which you will use to install opencv in normal ubuntu based system, if you are comfortable with it then this tutorial stops here for you.For OpenCV installation Just follow the steps listed [here(OpenCV installation on Ubuntu).]({{ site.url }}/{{ page.assets-dir }}/opencv installation.pdf)  
+Now all you need is to get opencv installed on your rpi. To get that done just follow the steps which you will use to install opencv in normal ubuntu based system, if you are comfortable with it then this tutorial stops here for you.For OpenCV installation Just follow the steps listed [here(OpenCV installation on Ubuntu).]({{ site.url }}/{{ page.assets-dir }}/opencv-installation.pdf)  
 You will also need two scripts in above installation the opencv installation. Get them from here:  
 [opencv2_4_6_1.sh]({{ site.url }}/{{ page.assets-dir }}/opencv2_4_6_1.sh)  
 [new]({{ site.url }}/{{ page.assets-dir }}/new)
