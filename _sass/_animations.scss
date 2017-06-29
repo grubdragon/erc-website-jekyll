@@ -386,6 +386,158 @@
 }
 
 /*
+   Slide-in Down animation .slideInDown
+   ========================================================================== */
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+}
+@-moz-keyframes slideInDown {
+  from {
+    -moz-transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -moz-transform: translate3d(0, 0, 0);
+  }
+}
+@-o-keyframes slideInDown {
+  from {
+    -o-transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -o-transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInDown {
+  animation-name: slideInDown;
+}
+
+.slideInUp {
+  animation-name: slideInUp;
+}
+
+.slideInUp {
+  animation-name: slideInUp;
+}
+
+/*
+   Slide-in Left animation .slideInLeft
+   ========================================================================== */
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+}
+@-moz-keyframes slideInLeft {
+  from {
+    -moz-transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -moz-transform: translate3d(0, 0, 0);
+  }
+}
+@-o-keyframes slideInLeft {
+  from {
+    -o-transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -o-transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
+}
+
+/*
+   Slide-in Right animation .slideInRight
+   ========================================================================== */
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+}
+@-moz-keyframes slideInRight {
+  from {
+    -moz-transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -moz-transform: translate3d(0, 0, 0);
+  }
+}
+@-o-keyframes slideInRight {
+  from {
+    -o-transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -o-transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  animation-name: slideInRight;
+}
+
+/*
    flip-in X animation .flipinX
    ========================================================================== */
 
